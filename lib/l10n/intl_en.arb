@@ -1,0 +1,67 @@
+{
+    "AppTitle": "SimpleCode App",
+    "counterValue": "Counter value",
+    "auth": "Authorization",
+    "inputLoginAndPassword": "Input login and password",
+    "login": "Login",
+    "password": "Password",
+    "inputErrorCheckLogin": "Check login",
+    "inputErrorLoginIsShort": "Login must contain more than 3 symbols",
+    "inputErrorCheckPassword": "Check password",
+    "inputErrorPasswordIsShort": "Password must contain more than 8 symbols",
+    "wrongPasswordOrLogin": "Wrong password or login",
+    "tryAgain": "Error",
+    "close": "Close",
+    "signIn": "Sign in",
+    "asGuest": "Enter as guest",
+
+    "products": "Products",
+
+    "language": "Language",
+    "english": "English",
+    "russian": "Russian", 
+
+
+    "shop": "Shop",
+    "appTheme": "Application Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "logout": "LogOut",
+
+   
+
+
+
+
+    "findCharacter": "Find character",
+    "totalCharacters": "Total characters",
+    "characterListIsEmpty": "Character list is empty",
+    "somethingWentWrong": "Something went wrong",
+
+
+    "articleDetails": "Article Details",
+"categories": "Categories",
+"rating": "Rating",
+"sortProducts": "Sort Products",
+
+
+
+
+
+    
+    "dead": "Dead",
+    "alive": "Alive",
+    "noData": "No Data",
+    "haveAccount": "Don't have an account yet?",
+
+
+
+    "createAccount": "Create", 
+    "characters": "Characters",
+    "settings": "Settings",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "speciesHuman": "Human"
+
+
+}
