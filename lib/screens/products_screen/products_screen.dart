@@ -15,10 +15,8 @@ import '../articl_screen/article_screen.dart';
 
 import 'widgets/sort_bar.dart';
 
-class PersonScreen extends StatelessWidget {
-  const PersonScreen({Key? key}) : super(key: key);
-
-  // static final isListView = ValueNotifier(true);
+class ProductsScreen extends StatelessWidget {
+  const ProductsScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,9 +26,6 @@ class PersonScreen extends StatelessWidget {
         appBar: AppBar(
           title: Text(S.of(context).products),
         ),
-        // bottomNavigationBar: const BottomNavBar(
-        //   selectedIndex: 0,
-        // ),
         backgroundColor: Colors.white,
         body: Column(
           children: [
@@ -63,14 +58,13 @@ class PersonScreen extends StatelessWidget {
                       return Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Image.asset(AppAssets.images.charNotFound),
+                          Image.asset(AppAssets.images.noPorudctFound),
                           Flexible(
-                            child: Text(S.of(context).characterListIsEmpty),
+                            child: Text(S.of(context).productsListIsEmpty),
                           ),
                         ],
                       );
                     } else {
-                      // Future<ResultRepoProducts> fetchProducts(
                       return Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 20.0),
                         child: GridView.builder(

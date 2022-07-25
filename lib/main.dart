@@ -13,10 +13,10 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
-      // statusBarColor: AppColors.splashBackground,
-      // statusBarBrightness: Brightness.dark,
+      // statusBarColor: AppColors.mainText,
+      statusBarBrightness: Brightness.light,
       statusBarIconBrightness: Brightness.dark,
-      systemStatusBarContrastEnforced: true,
+      // systemStatusBarContrastEnforced: true,
     ),
   );
 

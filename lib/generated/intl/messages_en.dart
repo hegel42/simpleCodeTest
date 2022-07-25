@@ -30,8 +30,6 @@ class MessageLookup extends MessageLookupByLibrary {
         "asGuest": MessageLookupByLibrary.simpleMessage("Enter as guest"),
         "auth": MessageLookupByLibrary.simpleMessage("Authorization"),
         "categories": MessageLookupByLibrary.simpleMessage("Categories"),
-        "characterListIsEmpty":
-            MessageLookupByLibrary.simpleMessage("Character list is empty"),
         "characters": MessageLookupByLibrary.simpleMessage("Characters"),
         "close": MessageLookupByLibrary.simpleMessage("Close"),
         "counterValue": MessageLookupByLibrary.simpleMessage("Counter value"),
@@ -61,6 +59,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "noData": MessageLookupByLibrary.simpleMessage("No Data"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "products": MessageLookupByLibrary.simpleMessage("Products"),
+        "productsListIsEmpty":
+            MessageLookupByLibrary.simpleMessage("Products list is empty"),
         "rating": MessageLookupByLibrary.simpleMessage("Rating"),
         "russian": MessageLookupByLibrary.simpleMessage("Russian"),
         "settings": MessageLookupByLibrary.simpleMessage("Settings"),

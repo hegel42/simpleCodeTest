@@ -81,23 +81,6 @@ class _SplashScreenState extends State<SplashScreen> {
                     AppAssets.images.logoImage,
                   ),
                 ),
-                // Expanded(
-                //   child: Column(
-                //     mainAxisAlignment: MainAxisAlignment.center,
-                //     children: [
-                //       Expanded(
-                //         child: Image.asset(
-                //           AppAssets.images.mortyImage,
-                //         ),
-                //       ),
-                //       Expanded(
-                //         child: Image.asset(
-                //           AppAssets.images.rickImage,
-                //         ),
-                //       ),
-                //     ],
-                //   ),
-                // ),
               ],
             ),
           ),

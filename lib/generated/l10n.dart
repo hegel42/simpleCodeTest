@@ -210,6 +210,16 @@ class S {
     );
   }
 
+  /// `Products list is empty`
+  String get productsListIsEmpty {
+    return Intl.message(
+      'Products list is empty',
+      name: 'productsListIsEmpty',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Language`
   String get language {
     return Intl.message(
@@ -305,16 +315,6 @@ class S {
     return Intl.message(
       'Total characters',
       name: 'totalCharacters',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Character list is empty`
-  String get characterListIsEmpty {
-    return Intl.message(
-      'Character list is empty',
-      name: 'characterListIsEmpty',
       desc: '',
       args: [],
     );

@@ -58,7 +58,7 @@ class BottomNavBar extends StatelessWidget {
       onTap: (index) {
         if (index == 0) {
           Navigator.of(context).pushAndRemoveUntil(
-            _pageRouteBuilder(const PersonScreen()),
+            _pageRouteBuilder(const ProductsScreen()),
             (route) => false,
           );
         } else if (index == 1) {

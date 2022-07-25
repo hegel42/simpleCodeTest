@@ -58,6 +58,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "noData": MessageLookupByLibrary.simpleMessage("Нет данных"),
         "password": MessageLookupByLibrary.simpleMessage("Пароль"),
         "products": MessageLookupByLibrary.simpleMessage("Товары"),
+        "productsListIsEmpty":
+            MessageLookupByLibrary.simpleMessage("Список товаров пуст"),
         "rating": MessageLookupByLibrary.simpleMessage("Рейтинг"),
         "russian": MessageLookupByLibrary.simpleMessage("Русский"),
         "settings": MessageLookupByLibrary.simpleMessage("Настройки"),

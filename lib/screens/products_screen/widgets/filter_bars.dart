@@ -14,7 +14,7 @@ class FilterBars extends StatefulWidget {
 
 class _FilterBarsState extends State<FilterBars> {
   final List<String> filterCategory = [
-    "All",
+    "Category",
     "electronics",
     "jewelery",
     "men's clothing",

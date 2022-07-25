@@ -98,7 +98,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => const PersonScreen(),
+                                builder: (context) => const ProductsScreen(),
                               ),
                             );
                           } else {
@@ -124,7 +124,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const PersonScreen(),
+                            builder: (context) => const ProductsScreen(),
                           ),
                         );
                       },

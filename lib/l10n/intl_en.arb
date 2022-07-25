@@ -16,6 +16,7 @@
     "asGuest": "Enter as guest",
 
     "products": "Products",
+    "productsListIsEmpty": "Products list is empty",
 
     "language": "Language",
     "english": "English",
@@ -35,7 +36,7 @@
 
     "findCharacter": "Find character",
     "totalCharacters": "Total characters",
-    "characterListIsEmpty": "Character list is empty",
+ 
     "somethingWentWrong": "Something went wrong",
 
 
